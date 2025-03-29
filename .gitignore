@@ -1,0 +1,58 @@
+# Visual Studio crap
+.vs/
+*.VC.db
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Rider & VS Code garbage
+.idea/
+*.code-workspace
+.vscode/
+
+# Unreal build garbage
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+.obj/
+*.pdb
+*.log
+
+# Generated project files
+*.xcworkspace
+*.generated.h
+
+# Ignore any debug files
+*_Debug/
+*_DebugGame/
+
+# Pak file junk
+*.pak
+
+# Unreal-specific temporary files
+*.uasset.tmp
+*.umap.tmp
+*.target
+*.modules
+
+# Unreal autosaves and backups
+Autosaves/
+Backup/
+
+# Crash logs and analytics
+CrashReportClient/
+CrashReportClientDebug/
+UE4.log
+UE5.log
+
+# Shader cache garbage
+*.ushaderbytecode
+*.ushadercode
+
+# Any unneeded project files
+*.unrealproject
